@@ -1,0 +1,9 @@
+debug windows
+set DEBUG=app:* & npm start
+set DEBUG=app:server,somethingelse & npm start
+set DEBUG=app:server,somethingelse & node server.js
+
+Mac
+DEBUG=express:* npm start
+DEBUG=express:server,somethingelse npm start
+DEBUG=express:server,somethingelse node server.js
